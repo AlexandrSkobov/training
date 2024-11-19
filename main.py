@@ -10,9 +10,4 @@ print( 2 * (2 + 2) )
 print( 2 + 2 * 2 == 2 * (2 + 2) )
 
 # 4th program
-s = '123.456'
-s = float(s)
-s = s * 10
-s = int(s)
-s = s % 10
-print(s)
+print(int(float('123.456') * 10) % 10)
