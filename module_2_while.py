@@ -4,4 +4,8 @@ i = 0
 while i < len(my_list):
     if my_list[i] > 0:
         print(my_list[i])
+    elif not my_list[i]:
+        pass
+    else:
+        break
     i += 1
