@@ -13,10 +13,10 @@ print(a)
 print(my_dict)
 
 print('\n# set')
-my_set = { 1,2,3,True,4,5,8,True,2,2,1,'apple','table',3,5,9,False,10,10,11,'apple','table'}
+my_set = { 1,2,4,5,8,2,2,1,'apple',3,5,88.8,10,10,11,'apple'}
 print(my_set)
-my_set.add(15)
-my_set.add(16)
+e = 15,16
+my_set.add(e)
 print(my_set)
 my_set.discard('apple')
 print(my_set)
