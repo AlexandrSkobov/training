@@ -4,7 +4,7 @@ students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
 list_students = sorted(students)
 
 i = 0
-while i < len(list_students):
+for j in list_students:
     st_dict[list_students[i]] = sum(grades[i]) / len(grades[i])
     i += 1
 
