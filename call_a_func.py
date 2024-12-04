@@ -5,7 +5,7 @@ def send_email(message, recipient, *, sender = 'university.help@gmail.com'):
     if sender == 'university.help@gmail.com':
         print()
         print(f"Письмо успешно отправлено с адреса {sender} на адрес {recipient}.")
-    elif re.search(r'[^com|^net|^ru]$',sender):
+    elif re.search(r'[^\.com|^\.net|^\.ru]$',sender):
         print()
         print(f"Невозможно отправить письмо с адреса {sender} на адрес {recipient}")
     elif recipient == sender:
