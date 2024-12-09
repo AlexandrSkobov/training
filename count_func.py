@@ -1,6 +1,6 @@
 calls = 0
 
-def count_calls(*args, **kwargs):
+def count_calls(*args, **kwargs):               # unpack/
         global calls
         calls += 1
         return calls
@@ -31,4 +31,5 @@ print(string_info('Armageddon'))
 print(is_contains('Urban', ['ban', 'BaNaN', 'urBAN']))
 print(is_contains('cycle', ['recycling', 'cyclic']))
 print(is_contains('Group', ['grouD', 'groUP', 'Up']))
+print(is_contains('Group', ['gro', 'groUP', 'Up']))
 print(calls)
